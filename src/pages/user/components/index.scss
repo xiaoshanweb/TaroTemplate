@@ -1,0 +1,13 @@
+
+.title-style{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 15px;
+	.arrow{
+		width: 20px;
+		height: 20px;
+	}
+}
