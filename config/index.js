@@ -31,20 +31,32 @@ const config = {
 		'@': path.resolve(__dirname, '..', 'src/shared'),
 	},
   mini: {
+    webpackChain (chain, webpack) {
+      chain.plugin('analyzer')
+        .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin, []),
+        //修改默认打包产物不能超过 244kb
+        chain.merge({
+          performance: {
+            //入口大小限制
+            maxEntrypointSize: 980000,
+            //生成文件大小限制
+            maxAssetSize: 980000
+          }
+        })
+
+    },
     postcss: {
       pxtransform: {
         enable: true,
         config: {
-          onePxTransform: true,
-          unitPrecision: 5,
-          propList: ['*'],
-          selectorBlackList: [],
-          replace: true,
-          mediaQuery: false,
-          minPixelValue: 0,
-          baseFontSize: 20,
-          maxRootSize: 40,
-          minRootSize: 20
+        }
+      },
+      "postcss-px-scale": {
+        enable: true,
+        config: {
+          scale: 0.5,
+          units: 'rpx',
+          includes:['taro-ui']
         }
       },
       url: {
@@ -102,6 +114,7 @@ const config = {
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
+    esnextModules: ['taro-ui'],
     postcss: {
       autoprefixer: {
         enable: true,
@@ -114,8 +127,16 @@ const config = {
           namingPattern: 'module', // 转换模式，取值为 global/module
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
-      }
-    }
+      },
+      "postcss-px-scale": {
+        enable: true,
+        config: {
+          scale: 0.25,
+          units: 'rem',
+          includes:['taro-ui']
+        }
+      },
+    },
   }
 }
 

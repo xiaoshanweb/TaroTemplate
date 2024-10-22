@@ -2,6 +2,7 @@ import { Component, PropsWithChildren } from 'react'
 import { Provider } from 'mobx-react'
 
 import counterStore from './store/counter'
+import 'taro-ui/dist/style/index.scss'
 
 import './app.scss'
 

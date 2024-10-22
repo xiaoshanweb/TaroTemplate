@@ -12,7 +12,8 @@ interface INavigationBarInfo {
 	menuButtonHeight: number
 	navigationPaddding: number
 	menuButtonWidth: number
-	statusBarHeight: number
+  statusBarHeight: number,
+  screenWidth: number
 }
 
 /**
@@ -31,14 +32,15 @@ export const useNavigationBarInfo = (
 	let navigationContentHeight = 40
 	navigationContentHeight =
 		(menuButtonInfo.top - systemInfo.statusBarHeight) * 2 +
-		menuButtonInfo.height
+  menuButtonInfo.height
 	return {
 		navigationBarHeight: statusBarHeight + navigationContentHeight,
 		navigationContentHeight,
 		menuButtonHeight: menuButtonInfo.height,
 		navigationPaddding: systemInfo.windowWidth - menuButtonInfo.right,
 		statusBarHeight: systemInfo.statusBarHeight,
-		menuButtonWidth: menuButtonInfo.width,
+    menuButtonWidth: menuButtonInfo.width,
+    screenWidth: systemInfo.screenWidth
 	}
 }
 

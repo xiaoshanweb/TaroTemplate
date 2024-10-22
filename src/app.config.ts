@@ -8,9 +8,17 @@ export default defineAppConfig({
 		},
 		{
 			root: 'demo',
-			pages: ['router/router', 'router/routerTarget', 'form/form'],
-		},
-	],
+			pages: ['router/router', 'router/routerTarget', 'form/form','echarts/index'],
+    },
+    {
+      root: 'project',
+      pages:['task/task','ongoing/ongoing']
+    },
+    {
+      root: 'goods',
+      pages:['goodsList/list','goodsDetail/detail']
+    }
+  ],
   pages: [
     'pages/index/index',
     'pages/user/index',

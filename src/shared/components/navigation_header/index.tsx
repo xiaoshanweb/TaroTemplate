@@ -2,7 +2,7 @@ import Taro from '@tarojs/taro'
 import React from 'react'
 import { View, Image } from '@tarojs/components'
 import { useNavigationBarInfo, usePageInfo } from '@/utils/hooks'
-import icon_back from '@/assets/icons/back.svg'
+import icon_back from '@/assets/icons/back.png'
 import icon_home from '@/assets/icons/home.svg'
 import Router from '@/utils/route'
 import './index.scss'
@@ -84,12 +84,12 @@ export default function NavigationHeader(
 									className='nav-header-content-left-icon'
 									onClick={handleBack}
 								/>
-								<View className='nav-header-content-left-icon-divider' />
+								{/* <View className='nav-header-content-left-icon-divider' />
 								<Image
 									src={icon_home}
 									className='nav-header-content-left-icon'
 									onClick={handleBackToHome}
-								/>
+								/> */}
 							</View>
 						</>
 					) : null}

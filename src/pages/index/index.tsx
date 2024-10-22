@@ -1,70 +1,33 @@
-import React, { Component } from 'react'
-import { View, Button, Text,Canvas } from '@tarojs/components'
-import { observer, inject } from 'mobx-react'
+import React, { useEffect } from 'react'
+import { View, Image, Text } from '@tarojs/components'
+import Taro from '@tarojs/taro'
 import Router from '@/utils/route'
-import PageContainer from '@/components/page_container'
-
+import Title from './components/title'
 import './index.scss'
+import Header from './components/header'
+import Project from './components/project'
+import OnGoingProject from './components/onGoingProject'
 
-type PageStateProps = {
-  store: {
-    counterStore: {
-      counter: number,
-      increment: Function,
-      decrement: Function,
-      incrementAsync: Function
-    }
-  }
-}
 
-interface IndexProps extends PageStateProps {
-  children?: React.ReactNode;
-}
 
-@inject('store')
-@observer
-class HomeIndex extends Component<IndexProps> {
-  componentDidMount() {
-    // this.initChart()
-  }
+const UserIndex = (): JSX.Element => {
+	useEffect(() => {
+		// console.log('process.env', process.env.TARO_ENV)
+		// console.log('TARO_API_BASE', process.env.TARO_API_BASE)
+		Taro.getSystemInfo({
+			success: (res) => {
+				console.log('Taro.getSystemInfo success', res)
+			},
+			fail: (err) => {
+				console.log('Taro.getSystemInfo fail', err)
+			},
+		})
+	}, [])
 
-  componentWillUnmount () { }
-
-  componentDidShow () { }
-
-  componentDidHide () { }
-
-  increment = () => {
-    const { counterStore } = this.props.store
-    counterStore.increment()
-  }
-
-  decrement = () => {
-    const { counterStore } = this.props.store
-    counterStore.decrement()
-  }
-
-  incrementAsync = () => {
-    const { counterStore } = this.props.store
-    counterStore.incrementAsync()
-  }
-
-  initChart = () => {
-      // const ctx = Taro.createCanvasContext('myChart')
-      // const chart = echarts.init(ctx, null, {
-      //   width: 375,
-      //   height: 250
-      // })
-      // const option = {
-      //   // ECharts 配置项
-      // }
-      // chart.setOption(option)
-  }
-
-  /**
+	/**
 	 * 跳转demo页面
 	 */
-	jumpToDemo = (demoType: 'router' | 'form') => {
+	const jumpToDemo = (demoType: string) => {
 		switch (demoType) {
 			case 'router':
 				Router.navigateTo({
@@ -75,32 +38,33 @@ class HomeIndex extends Component<IndexProps> {
 				Router.navigateTo({
 					url: '/demo/form/form',
 				})
-
+        break
+      case 'project':
+				Router.navigateTo({
+					url: '/project/task/task',
+				})
 				break
 		}
 	}
 
-  render () {
-    const { counterStore: { counter } } = this.props.store
+	return (
+		<View className="index-page">
+			<Header />
 
-    return (
-      <PageContainer title='首页' containerClass="HomeIndex">
-        <View className='container'>
-          <Button onClick={this.increment}>+</Button>
-          <Button onClick={this.decrement}>-</Button>
-          <Button onClick={this.incrementAsync}>Add Async</Button>
-          <Text>{counter}</Text>
-          {/* <Canvas canvasId="myChart" style={{width: 375, height: 250}}></Canvas> */}
-          <Button className="btn-style" onClick={() => this.jumpToDemo('router')}>
-            路由跳转
-          </Button>
-          <Button className="btn-style" onClick={() => this.jumpToDemo('router')}>
-            Echarts
-          </Button>
-        </View>
-      </PageContainer>
-    )
-  }
+
+
+      <View className="section-project">
+        <Title title='工作任务' clickFunction={() => jumpToDemo('project')}/>
+        <Project />
+
+        <Title title='进行中的项目' clickFunction={() => jumpToDemo('form')} />
+        <OnGoingProject />
+
+        <View className="bottom-tip">技术服务：工福科技</View>
+      </View>
+		</View>
+
+	)
 }
 
-export default HomeIndex
+export default UserIndex
