@@ -2,8 +2,8 @@ export const getConfig = {
   "projectId": 6965,
   "projectName": "国货专区_四宫格",
   "projectType": "运营",
-  "bkcolor1": "50B6A9",
-  "bkcolor2": "50B6A9",
+  "bkcolor1": "#50B6A9",
+  "bkcolor2": "#50B6A9",
   "appTitleStyle": "",
   "appRecomomdGoodsList": [],
   "showStarCate": false,
@@ -4679,5 +4679,1310 @@ export const goodsSearchList = {
       "Logo": null
     }
   ],
+  "channelList": [
+    {
+      "BrandId": 463,
+      "BrandName": "全部",
+      "SearchKey": null,
+      "Logo": null
+    },
+    {
+      "BrandId": 5435,
+      "BrandName": "工福精选",
+      "SearchKey": null,
+      "Logo": null
+    },
+    {
+      "BrandId": 2352,
+      "BrandName": "优品商城",
+      "SearchKey": null,
+      "Logo": null
+    },
+    {
+      "BrandId": 8972,
+      "BrandName": "网易严选",
+      "SearchKey": null,
+      "Logo": null
+    },
+    {
+      "BrandId": 2324,
+      "BrandName": "本来生活",
+      "SearchKey": null,
+      "Logo": null
+    },
+    {
+      "BrandId": 43234,
+      "BrandName": "雅觅",
+      "SearchKey": null,
+      "Logo": null
+    },
+  ],
   "categoryList": null
 }
+
+//商品详情
+export const goodsDetail = {
+  "listInfo": {
+    "_id": "667a7ed5df6678f9140229e4",
+    "ShopId": 2199,
+    "SkuId": "21991719303799",
+    "Name": "蜂花檀香皂105克/块*3块 保湿滋润沐浴洗手长久留香男女通用",
+    "NamePrefix": null,
+    "Img": "https://oss.goodfull.vip/goodfull/goodsImg/GoodThumb/bf25fb29-38ec-4ace-a686-ff1437306eaf.jpg",
+    "CostPrice": 17.25,
+    "Price": 23,
+    "MarketPrice": 24.9,
+    "PriceSale": 23,
+    "DisplayPrice": 0,
+    "CompanyPrice": 0,
+    "ProfitRate": 0,
+    "ProductArea": "",
+    "CatId1": 15910,
+    "CatId2": 15935,
+    "CatId3": 15938,
+    "SpuId": null,
+    "GoodsType": "默认",
+    "LowestBuy": 1,
+    "HighestBuy": 0,
+    "SupplierCode": null,
+    "SaleRange": 1,
+    "Relatives": null,
+    "RelativeGoods": null,
+    "Purchases": null,
+    "MarketTags": null,
+    "Imgs": null,
+    "PriceFixed": 0,
+    "PriceFixedStime": "1900-01-01T00:00:00",
+    "PriceFixedEtime": "1900-01-01T00:00:00",
+    "PriceFixedTagTemplate": "模板2",
+    "ProjectSortArray": null,
+    "State": 1,
+    "AutoState": true,
+    "IsInStock": true,
+    "IsLimit": false,
+    "IsCanVAT": false,
+    "Inventory": 439,
+    "OrderCount": 1,
+    "ShopName": "正兴华代精选",
+    "ShopName2": null,
+    "IsGiftBag": false,
+    "PriceReduce": 0,
+    "SendTime": null,
+    "ReadyTime": null,
+    "MallActivityState": 0,
+    "ActivityType": 0,
+    "MallActivityId": 0,
+    "MaxBuyCount": 0,
+    "UserBuyCount": 0,
+    "ActivityInventory": 0,
+    "SortValue": 1361389328117609000,
+    "SaleCount": 61,
+    "BrandId": 0,
+    "BrandName": "",
+    "IsLive": 0,
+    "ShopSkuId": "",
+    "DeliveryType": 0,
+    "Score": 0,
+    "FromType": 0,
+    "FromId": "",
+    "ReadyId": null,
+    "TicketCode": "",
+    "GiftType": 0,
+    "IsSysRecommend": 0
+  },
+  "moreInfo": {
+    "Id": "667a7ed5df6678f9140229e4",
+    "IdString": "667a7ed5df6678f9140229e4",
+    "Deleted": false,
+    "CreateTime": "0001-01-01T00:00:00",
+    "UpdateTime": "0001-01-01T00:00:00",
+    "ShopId": 2199,
+    "SkuId": "21991719303799",
+    "ShopSkuId": "",
+    "Name": "蜂花檀香皂105克/块*3块 保湿滋润沐浴洗手长久留香男女通用",
+    "SpecName": null,
+    "State": "1",
+    "Img": "https://oss.goodfull.vip/goodfull/goodsImg/GoodThumb/bf25fb29-38ec-4ace-a686-ff1437306eaf.jpg",
+    "Imgs": "https://oss.goodfull.vip/goodfull/goodsImg/GoodsMainImgFiles/22d3b50c-32f0-4fc2-8541-b062ef42a768.jpg,https://oss.goodfull.vip/goodfull/goodsImg/GoodsMainImgFiles/1bde179f-7d7a-46ae-b991-bea635cb7368.png,https://oss.goodfull.vip/goodfull/goodsImg/GoodsMainImgFiles/2fac7330-4706-4cb6-b40c-e2cbfc6cdb1e.jpg,https://oss.goodfull.vip/goodfull/goodsImg/GoodsMainImgFiles/b8e5d467-73a2-4cb5-8e08-9b938c3a81d0.jpg,https://oss.goodfull.vip/goodfull/goodsImg/GoodsMainImgFiles/b8e95630-b17c-457e-abed-41805f971e45.jpg,https://oss.goodfull.vip/goodfull/goodsImg/GoodsMainImgFiles/15c66264-10c6-4079-a738-18ff1911088c.jpg",
+    "Specifications": "<img src='https://oss.goodfull.vip/goodfull/goodsImg/categoryImg/c7db951a-2101-44a3-aff6-9fdcd6da575b.jpg' /><img src=\"https://oss.goodfull.vip/goodfull/goodsImg/GoodsDetailImgFiles/b60a6fa7-c4eb-4a28-af0c-1f46e34792d0.jpg\" alt=\"\"><img src=\"https://oss.goodfull.vip/goodfull/goodsImg/GoodsDetailImgFiles/1a2156d9-f5d8-45bf-94d1-d5acddc71a2a.jpg\" alt=\"\"><img src=\"https://oss.goodfull.vip/goodfull/goodsImg/GoodsDetailImgFiles/f18bcc8f-ac88-41ad-825b-d7675040d664.jpg\" alt=\"\"><img src=\"https://oss.goodfull.vip/goodfull/goodsImg/GoodsDetailImgFiles/9c7ecba5-61db-4542-b128-44feb23d59c3.jpg\" alt=\"\"><img src=\"https://oss.goodfull.vip/goodfull/goodsImg/GoodsDetailImgFiles/260f1aba-bd11-4c71-a7f1-9aef6635daec.jpg\" alt=\"\"><img src=\"https://oss.goodfull.vip/goodfull/goodsImg/GoodsDetailImgFiles/5f7fde5b-ea6d-4b98-a164-d10bcf694d3c.jpg\" alt=\"\">",
+    "PropCode": "",
+    "PackingList": "",
+    "CustomerService": "3",
+    "Shouhou": "3",
+    "CatId1": 15910,
+    "CatId2": 15935,
+    "CatId3": 15938,
+    "ProductArea": null,
+    "Upc": null,
+    "SpuId": null,
+    "SpuItemName": null,
+    "MinQty": 0,
+    "SupplierCode": null,
+    "Relatives": [],
+    "RelativeGoods": null,
+    "Inventory": 0,
+    "GoodsPrompt": "国庆节假期期间此商品自2024年9月30日15时起只接单不发货，于2024年10月8日10时后根据订单支付顺序发出。请您留意订单物流信息",
+    "NoneFreight": 1,
+    "ApplauseRate": 0,
+    "DefaultSort": 0,
+    "SalesSort": 0,
+    "AutoState": true,
+    "NamePrefix": null,
+    "GoodsType": "默认",
+    "UCatId1": 0,
+    "UCatId2": 0,
+    "UCatId3": 0,
+    "DefineIdArray": null,
+    "ProjectSortArray": null,
+    "SearchKeys": null,
+    "TaxCode": null,
+    "Tax": null,
+    "PriceAreaCode": null,
+    "ApiSalePrice": 0,
+    "ApiCostPrice": 0,
+    "Price": 23,
+    "CostPrice": 0,
+    "MarketPrice": 24.9,
+    "SupplierSalePrice": 0,
+    "GoodsSaleType": 0,
+    "DiscountPrice": 0,
+    "DiscountBegin": "0001-01-01T00:00:00",
+    "DiscountEnd": "0001-01-01T00:00:00",
+    "PriceFixed": 0,
+    "DisplayPrice": 0,
+    "CompanyPrice": 0,
+    "Purchases": [],
+    "PriceFixedStime": "0001-01-01T00:00:00",
+    "PriceFixedEtime": "0001-01-01T00:00:00",
+    "PriceFixedTagTemplate": "模板2",
+    "PriceReduce": 0,
+    "SendTime": null,
+    "ReadyTime": null,
+    "MallActivityState": 0,
+    "ActivityType": 0,
+    "MallActivityId": 0,
+    "MaxBuyCount": 0,
+    "UserBuyCount": 0,
+    "ActivityInventory": 0,
+    "ActivityInitInventory": 0,
+    "CostFixed": 0,
+    "CanTake": 0,
+    "CanShip": 0,
+    "description": null,
+    "extraData": null,
+    "ThirdBrandId": 0,
+    "RecommendTip": "",
+    "DeliveryDate": "48小时内发货",
+    "DeliveryPlace": "",
+    "SaleRange": 1,
+    "isGiftType": null,
+    "PriceSaleType": 0,
+    "PriceSale": 23,
+    "Price2": 0,
+    "ProfitRate": 0,
+    "FinalSyncTime": "0001-01-01T00:00:00",
+    "PriceRefreshTime": "0001-01-01T00:00:00",
+    "InBatchGet": 0
+  },
+  "exInfo": {
+    "salsaleCount1": 61,
+    "shopId": 2199,
+    "shopName": "正兴华代精选",
+    "shopSaleTip": null,
+    "userId": "206c34ee-c720-4871-b693-121a45f41bf6",
+    "userMobile": "13247702051",
+    "IsShowSkuId": true,
+    "giftbagGoods": null,
+    "couponNameConfig": "",
+    "isShowScore": false,
+    "scoreRate": "",
+    "exchangeInfo": "",
+    "isShowJdRetailTag": false
+  }
+}
+
+//可用提货券
+export const coupGoodsList = {
+  "goods": [
+    {
+      "GoodsId": "667a7ed5df6678f9140229e4",
+      "ProjectIds": [],
+      "GoodsFindItem": {
+        "_id": "667a7ed5df6678f9140229e4",
+        "ShopId": 2199,
+        "SkuId": "21991719303799",
+        "Name": "蜂花檀香皂105克/块*3块 保湿滋润沐浴洗手长久留香男女通用",
+        "NamePrefix": null,
+        "Img": "https://oss.goodfull.vip/goodfull/goodsImg/GoodThumb/bf25fb29-38ec-4ace-a686-ff1437306eaf.jpg",
+        "CostPrice": 17.25,
+        "Price": 23,
+        "MarketPrice": 24.9,
+        "PriceSale": 23,
+        "DisplayPrice": 0,
+        "CompanyPrice": 0,
+        "ProfitRate": 0,
+        "ProductArea": "",
+        "CatId1": 15910,
+        "CatId2": 15935,
+        "CatId3": 15938,
+        "SpuId": null,
+        "GoodsType": "默认",
+        "LowestBuy": 1,
+        "HighestBuy": 0,
+        "SupplierCode": null,
+        "SaleRange": 1,
+        "Relatives": null,
+        "RelativeGoods": null,
+        "Purchases": null,
+        "MarketTags": null,
+        "Imgs": null,
+        "PriceFixed": 0,
+        "PriceFixedStime": "1900-01-01T00:00:00",
+        "PriceFixedEtime": "1900-01-01T00:00:00",
+        "PriceFixedTagTemplate": "模板2",
+        "ProjectSortArray": null,
+        "State": 1,
+        "AutoState": true,
+        "IsInStock": false,
+        "IsLimit": false,
+        "IsCanVAT": false,
+        "Inventory": 0,
+        "OrderCount": 0,
+        "ShopName": "正兴华代精选",
+        "ShopName2": null,
+        "IsGiftBag": false,
+        "PriceReduce": 0,
+        "SendTime": null,
+        "ReadyTime": null,
+        "MallActivityState": 0,
+        "ActivityType": 0,
+        "MallActivityId": 0,
+        "MaxBuyCount": 0,
+        "UserBuyCount": 0,
+        "ActivityInventory": 0,
+        "SortValue": 5900510491719333000,
+        "SaleCount": 61,
+        "BrandId": 0,
+        "BrandName": "",
+        "IsLive": 0,
+        "ShopSkuId": "",
+        "DeliveryType": 0,
+        "Score": 0,
+        "FromType": 0,
+        "FromId": "",
+        "ReadyId": null,
+        "TicketCode": "",
+        "GiftType": 0,
+        "IsSysRecommend": 0
+      },
+      "Coupons": [
+        {
+          "CouponId": "7875103f-9523-42da-b9e2-9f6757f67790",
+          "UserId": null,
+          "CouponTypeId": 5,
+          "Parvalue": 30,
+          "Balance": 8.22,
+          "ConsumeType": 1,
+          "BeginDate": "2023-10-13T00:00:00",
+          "ExpiredDate": "2024-10-31T23:59:59",
+          "CreateTime": "2023-10-13T09:56:38",
+          "FromType": "1",
+          "FromInfo": "3146345",
+          "UsedRemark": null,
+          "ProjectId": "0",
+          "ShopId": "",
+          "IsAloneUse": 0,
+          "CouponName": "备注：全场通用",
+          "IsDemo": 0,
+          "PayRange": null,
+          "WelfareName": "测试购买蛋糕卡券，生成订单后点击“查看卡券”按钮可以跳转卡包",
+          "CouponType": {
+            "CouponTypeId": 5,
+            "CouponTypeName": "提货券",
+            "PayRange": "无限制",
+            "ShopRange": null,
+            "NoShopRange": "蛋糕,电影,樊登,演艺,鲜花"
+          },
+          "UseRangeList": [
+            {
+              "ShopId": 1010,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2235,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 4321,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 5237,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1008,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1018,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1023,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2110,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2226,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 0,
+              "ProjectId": 0
+            }
+          ],
+          "LimitRangeList": [
+            {
+              "ShopId": 1012,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1021,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1032,
+              "ProjectId": 0
+            }
+          ],
+          "LimitShopIdList": [],
+          "IsDonate": false,
+          "IsCanDonate": false,
+          "DonateType": null,
+          "Remark": null,
+          "AppTypeId": 1,
+          "IsShowRange": true,
+          "IsShowRemark": true,
+          "ProjectType": 0,
+          "BizType": 1
+        },
+        {
+          "CouponId": "2c9c7027-ca9e-47f5-9a8b-3249a5d3fb72",
+          "UserId": null,
+          "CouponTypeId": 37,
+          "Parvalue": 1,
+          "Balance": 1,
+          "ConsumeType": 1,
+          "BeginDate": "2024-01-05T00:00:00",
+          "ExpiredDate": "2024-12-31T23:59:59",
+          "CreateTime": "2024-01-05T09:20:02",
+          "FromType": "1",
+          "FromInfo": "3343604",
+          "UsedRemark": null,
+          "ProjectId": "0",
+          "ShopId": "",
+          "IsAloneUse": 0,
+          "CouponName": "备注：除扶贫商城外，全场通用",
+          "IsDemo": 0,
+          "PayRange": null,
+          "WelfareName": "测试新增全场通用券（注意！！扶贫商城不可用！）",
+          "CouponType": {
+            "CouponTypeId": 37,
+            "CouponTypeName": "提货券",
+            "PayRange": "全场通用券（不含扶贫商城）",
+            "ShopRange": null,
+            "NoShopRange": "蛋糕,电影,樊登,演艺,鲜花"
+          },
+          "UseRangeList": [
+            {
+              "ShopId": 1010,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2235,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 4321,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 5237,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1008,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1018,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1023,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2110,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2226,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 0,
+              "ProjectId": 0
+            }
+          ],
+          "LimitRangeList": [
+            {
+              "ShopId": 1012,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1021,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1032,
+              "ProjectId": 0
+            }
+          ],
+          "LimitShopIdList": [
+            1101,
+            1105,
+            1107,
+            1115,
+            1118,
+            1122,
+            1123,
+            1124,
+            1126,
+            1128,
+            1130,
+            1131,
+            1135,
+            1136,
+            1140,
+            1142,
+            1145,
+            1149,
+            1152,
+            1156,
+            1158,
+            1164,
+            1167,
+            1168,
+            1169,
+            1170,
+            1178,
+            1179,
+            1180,
+            1181,
+            1182,
+            1185,
+            1188,
+            1190,
+            1193,
+            1198,
+            1201,
+            1209,
+            1210,
+            1214,
+            1215,
+            1217,
+            1226,
+            1227,
+            1228,
+            1230,
+            1231,
+            1236,
+            1246,
+            1251,
+            1254,
+            1265,
+            1273,
+            1282,
+            1292,
+            1294,
+            1295,
+            1296,
+            1288,
+            1297,
+            1299,
+            5014,
+            5013,
+            1274,
+            1162,
+            1293,
+            4003,
+            4014,
+            1125,
+            1244,
+            1189,
+            1307,
+            5267,
+            1106,
+            5244,
+            2286,
+            1806,
+            1208,
+            4002,
+            2178,
+            1308,
+            1309,
+            1262,
+            4001,
+            4004,
+            4005,
+            4006,
+            4007,
+            4008,
+            4009,
+            4010,
+            4011,
+            4012,
+            4013,
+            7920,
+            7921,
+            7922,
+            7923,
+            7924,
+            7925,
+            7926,
+            7928,
+            7929,
+            7930,
+            7931,
+            7932,
+            7933,
+            1800,
+            1801,
+            1802,
+            1803,
+            1804,
+            1280,
+            1805,
+            1261,
+            1112,
+            1154,
+            1155,
+            1218,
+            1220,
+            1222,
+            1241,
+            1253,
+            1256,
+            1260,
+            1263,
+            1287,
+            1199,
+            1291,
+            1247,
+            1116,
+            1111,
+            1276,
+            1281,
+            1151,
+            1150,
+            7919,
+            1113,
+            1300,
+            1305,
+            1807
+          ],
+          "IsDonate": false,
+          "IsCanDonate": false,
+          "DonateType": null,
+          "Remark": null,
+          "AppTypeId": 1,
+          "IsShowRange": true,
+          "IsShowRemark": true,
+          "ProjectType": 0,
+          "BizType": 1
+        },
+        {
+          "CouponId": "3ff97718-11e9-4ef2-a6da-83b4f1aa9ae0",
+          "UserId": null,
+          "CouponTypeId": 5,
+          "Parvalue": 1,
+          "Balance": 1,
+          "ConsumeType": 1,
+          "BeginDate": "2024-05-17T00:00:00",
+          "ExpiredDate": "2024-12-31T23:59:59",
+          "CreateTime": "2024-05-17T15:11:37",
+          "FromType": "1",
+          "FromInfo": "3637789",
+          "UsedRemark": null,
+          "ProjectId": "0",
+          "ShopId": null,
+          "IsAloneUse": 1,
+          "CouponName": "备注：全场通用",
+          "IsDemo": 0,
+          "PayRange": "(不能叠加使用)",
+          "WelfareName": "券样式弹窗测试------请勿领取",
+          "CouponType": {
+            "CouponTypeId": 5,
+            "CouponTypeName": "提货券",
+            "PayRange": "无限制",
+            "ShopRange": null,
+            "NoShopRange": "蛋糕,电影,樊登,演艺,鲜花"
+          },
+          "UseRangeList": [
+            {
+              "ShopId": 1010,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2235,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 4321,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 5237,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1008,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1018,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1023,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2110,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2226,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 0,
+              "ProjectId": 0
+            }
+          ],
+          "LimitRangeList": [
+            {
+              "ShopId": 1012,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1021,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1032,
+              "ProjectId": 0
+            }
+          ],
+          "LimitShopIdList": [],
+          "IsDonate": false,
+          "IsCanDonate": false,
+          "DonateType": null,
+          "Remark": null,
+          "AppTypeId": 1,
+          "IsShowRange": true,
+          "IsShowRemark": true,
+          "ProjectType": 0,
+          "BizType": 1
+        },
+        {
+          "CouponId": "48c1e511-5b00-4580-914e-121084ab51cb",
+          "UserId": null,
+          "CouponTypeId": 5,
+          "Parvalue": 1,
+          "Balance": 1,
+          "ConsumeType": 1,
+          "BeginDate": "2024-06-14T00:00:00",
+          "ExpiredDate": "2024-12-31T23:59:59",
+          "CreateTime": "2024-09-18T15:13:41",
+          "FromType": "1",
+          "FromInfo": "3744455",
+          "UsedRemark": null,
+          "ProjectId": "0",
+          "ShopId": "",
+          "IsAloneUse": 1,
+          "CouponName": "备注：全场通用",
+          "IsDemo": 0,
+          "PayRange": "(不能叠加使用)",
+          "WelfareName": "测试辽工惠弹出券-----请勿领取",
+          "CouponType": {
+            "CouponTypeId": 5,
+            "CouponTypeName": "提货券",
+            "PayRange": "无限制",
+            "ShopRange": null,
+            "NoShopRange": "蛋糕,电影,樊登,演艺,鲜花"
+          },
+          "UseRangeList": [
+            {
+              "ShopId": 1010,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2235,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 4321,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 5237,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1008,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1018,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1023,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2110,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2226,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 0,
+              "ProjectId": 0
+            }
+          ],
+          "LimitRangeList": [
+            {
+              "ShopId": 1012,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1021,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1032,
+              "ProjectId": 0
+            }
+          ],
+          "LimitShopIdList": [],
+          "IsDonate": false,
+          "IsCanDonate": false,
+          "DonateType": null,
+          "Remark": null,
+          "AppTypeId": 1,
+          "IsShowRange": true,
+          "IsShowRemark": true,
+          "ProjectType": 0,
+          "BizType": 1
+        },
+        {
+          "CouponId": "b61a7243-fbb5-432b-bc06-f2b7aa44950f",
+          "UserId": null,
+          "CouponTypeId": 5,
+          "Parvalue": 1,
+          "Balance": 1,
+          "ConsumeType": 1,
+          "BeginDate": "2024-05-15T00:00:00",
+          "ExpiredDate": "2024-12-31T23:59:59",
+          "CreateTime": "2024-05-15T13:55:21",
+          "FromType": "1",
+          "FromInfo": "3635182",
+          "UsedRemark": null,
+          "ProjectId": "0",
+          "ShopId": null,
+          "IsAloneUse": 1,
+          "CouponName": "备注：全场通用",
+          "IsDemo": 0,
+          "PayRange": "(不能叠加使用)",
+          "WelfareName": "测试券样式弹窗",
+          "CouponType": {
+            "CouponTypeId": 5,
+            "CouponTypeName": "提货券",
+            "PayRange": "无限制",
+            "ShopRange": null,
+            "NoShopRange": "蛋糕,电影,樊登,演艺,鲜花"
+          },
+          "UseRangeList": [
+            {
+              "ShopId": 1010,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2235,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 4321,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 5237,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1008,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1018,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1023,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2110,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 2226,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 0,
+              "ProjectId": 0
+            }
+          ],
+          "LimitRangeList": [
+            {
+              "ShopId": 1012,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1021,
+              "ProjectId": 0
+            },
+            {
+              "ShopId": 1032,
+              "ProjectId": 0
+            }
+          ],
+          "LimitShopIdList": [],
+          "IsDonate": false,
+          "IsCanDonate": false,
+          "DonateType": null,
+          "Remark": null,
+          "AppTypeId": 1,
+          "IsShowRange": true,
+          "IsShowRemark": true,
+          "ProjectType": 0,
+          "BizType": 1
+        }
+      ]
+    }
+  ]
+}
+
+//获取收货地址
+export const getAddressList = [
+  {
+    "id": 1033769,
+    "name": "杭州11",
+    "tel": "18868435878",
+    "address": "浙江省杭州市西湖区三墩镇三墩镇振华路298号西港大食堂(西港·新界A区店)",
+    "DetailAddress": "三墩镇振华路298号西港大食堂(西港·新界A区店)",
+    "isDefault": true,
+    "isSetDefault": false,
+    "ProvinceName": "浙江省",
+    "CityName": "杭州市",
+    "CountyName": "西湖区",
+    "TownName": "三墩镇",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1024172,
+    "name": "没记录",
+    "tel": "13247702051",
+    "address": "广东省深圳市福田区香蜜湖街道鄂破",
+    "DetailAddress": "鄂破",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "广东省",
+    "CityName": "深圳市",
+    "CountyName": "福田区",
+    "TownName": "香蜜湖街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1027646,
+    "name": "莫失",
+    "tel": "13807248404",
+    "address": "北京市市辖区东城区东华门街道哈",
+    "DetailAddress": "哈",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "北京市",
+    "CityName": "市辖区",
+    "CountyName": "东城区",
+    "TownName": "东华门街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1028256,
+    "name": "次数",
+    "tel": "13247702051",
+    "address": "新疆维吾尔自治区乌鲁木齐市水磨沟区水磨沟街道红山公园",
+    "DetailAddress": "红山公园",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "新疆维吾尔自治区",
+    "CityName": "乌鲁木齐市",
+    "CountyName": "水磨沟区",
+    "TownName": "水磨沟街道",
+    "isLimit": true,
+    "Tag": ""
+  },
+  {
+    "id": 1033851,
+    "name": "111",
+    "tel": "13261857271",
+    "address": "山东省泰安市泰山区财源街道万达广场8号楼",
+    "DetailAddress": "万达广场8号楼",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "山东省",
+    "CityName": "泰安市",
+    "CountyName": "泰山区",
+    "TownName": "财源街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1036325,
+    "name": "白白",
+    "tel": "18757680429",
+    "address": "浙江省杭州市下城区武林街道西港发展中心3A-502",
+    "DetailAddress": "西港发展中心3A-502",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "浙江省",
+    "CityName": "杭州市",
+    "CountyName": "下城区",
+    "TownName": "武林街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1038212,
+    "name": "水电费",
+    "tel": "15412341234",
+    "address": "辽宁省沈阳市大东区前进街道111",
+    "DetailAddress": "111",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "辽宁省",
+    "CityName": "沈阳市",
+    "CountyName": "大东区",
+    "TownName": "前进街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1044515,
+    "name": "暮雨玄",
+    "tel": "13584564823",
+    "address": "上海市市辖区宝山区友谊路街道11路",
+    "DetailAddress": "11路",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "上海市",
+    "CityName": "市辖区",
+    "CountyName": "宝山区",
+    "TownName": "友谊路街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1045068,
+    "name": "暮云",
+    "tel": "13846546546",
+    "address": "北京市市辖区朝阳区朝外街道11路",
+    "DetailAddress": "11路",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "北京市",
+    "CityName": "市辖区",
+    "CountyName": "朝阳区",
+    "TownName": "朝外街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1115077,
+    "name": "暮云",
+    "tel": "13846546546",
+    "address": "北京市市辖区丰台区卢沟桥街道金家村288号院5号楼A座2006",
+    "DetailAddress": "金家村288号院5号楼A座2006",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "北京市",
+    "CityName": "市辖区",
+    "CountyName": "丰台区",
+    "TownName": "卢沟桥街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1130150,
+    "name": "11",
+    "tel": "18757680429",
+    "address": "西藏自治区那曲市比如县夏曲镇我",
+    "DetailAddress": "我",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "西藏自治区",
+    "CityName": "那曲市",
+    "CountyName": "比如县",
+    "TownName": "夏曲镇",
+    "isLimit": true,
+    "Tag": ""
+  },
+  {
+    "id": 1138896,
+    "name": "白白",
+    "tel": "18757680429",
+    "address": "上海市市辖区杨浦区定海路街道晟世黎明嘉园",
+    "DetailAddress": "晟世黎明嘉园",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "上海市",
+    "CityName": "市辖区",
+    "CountyName": "杨浦区",
+    "TownName": "定海路街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1139138,
+    "name": "暮雨玄",
+    "tel": "13247702059",
+    "address": "福建省龙岩市连城县莲峰镇11路",
+    "DetailAddress": "11路",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "福建省",
+    "CityName": "龙岩市",
+    "CountyName": "连城县",
+    "TownName": "莲峰镇",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1160853,
+    "name": "bill",
+    "tel": "13584545454",
+    "address": "甘肃省嘉峪关市市辖区振华路西港",
+    "DetailAddress": "振华路西港",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "甘肃省",
+    "CityName": "嘉峪关市",
+    "CountyName": "市辖区",
+    "TownName": null,
+    "isLimit": true,
+    "Tag": ""
+  },
+  {
+    "id": 1162870,
+    "name": "次数",
+    "tel": "13584564823",
+    "address": "北京市市辖区西城区西长安街街道西长安街88号中国人保大厦",
+    "DetailAddress": "西长安街88号中国人保大厦",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "北京市",
+    "CityName": "市辖区",
+    "CountyName": "西城区",
+    "TownName": "西长安街街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1163170,
+    "name": "啊",
+    "tel": "13846546546",
+    "address": "江苏省苏州市虎丘区浒墅关镇虎丘区见山花园西区30-1-802",
+    "DetailAddress": "虎丘区见山花园西区30-1-802",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "江苏省",
+    "CityName": "苏州市",
+    "CountyName": "虎丘区",
+    "TownName": "浒墅关镇",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1189671,
+    "name": "高先生",
+    "tel": "13464246600",
+    "address": "海南省省直辖县级行政区划东方市八所镇福民南路东九巷31号",
+    "DetailAddress": "福民南路东九巷31号",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "海南省",
+    "CityName": "省直辖县级行政区划",
+    "CountyName": "东方市",
+    "TownName": "八所镇",
+    "isLimit": true,
+    "Tag": ""
+  },
+  {
+    "id": 1193405,
+    "name": "反复",
+    "tel": "13469797979",
+    "address": "浙江省杭州市西湖区三墩镇西园路西港·新界(西区)",
+    "DetailAddress": "西园路西港·新界(西区)",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "浙江省",
+    "CityName": "杭州市",
+    "CountyName": "西湖区",
+    "TownName": "三墩镇",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1202037,
+    "name": "白白",
+    "tel": "18767784838",
+    "address": "江苏省南京市鼓楼区宁海路街道啊啊啊啊啊",
+    "DetailAddress": "啊啊啊啊啊",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "江苏省",
+    "CityName": "南京市",
+    "CountyName": "鼓楼区",
+    "TownName": "宁海路街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1203458,
+    "name": "白白",
+    "tel": "18767784838",
+    "address": "山东省济宁市任城区观音阁街道12122",
+    "DetailAddress": "12122",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "山东省",
+    "CityName": "济宁市",
+    "CountyName": "任城区",
+    "TownName": "观音阁街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1203459,
+    "name": "本本",
+    "tel": "13247702059",
+    "address": "内蒙古自治区通辽市通辽经济技术开发区sdfsdf",
+    "DetailAddress": "sdfsdf",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "内蒙古自治区",
+    "CityName": "通辽市",
+    "CountyName": "通辽经济技术开发区",
+    "TownName": null,
+    "isLimit": true,
+    "Tag": ""
+  },
+  {
+    "id": 1218043,
+    "name": "jfjd",
+    "tel": "13587049464",
+    "address": "浙江省杭州市西湖区三墩镇三墩镇振华路290号-5中国电信(西湖分局北区三墩东支局)",
+    "DetailAddress": "三墩镇振华路290号-5中国电信(西湖分局北区三墩东支局)",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "浙江省",
+    "CityName": "杭州市",
+    "CountyName": "西湖区",
+    "TownName": "三墩镇",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1249075,
+    "name": "316",
+    "tel": "13540757578",
+    "address": "浙江省杭州市西湖区三墩镇振华路298号西港发展中心西4幢12层紫金港科技城",
+    "DetailAddress": "振华路298号西港发展中心西4幢12层紫金港科技城",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "浙江省",
+    "CityName": "杭州市",
+    "CountyName": "西湖区",
+    "TownName": "三墩镇",
+    "isLimit": false,
+    "Tag": "家"
+  },
+  {
+    "id": 1253694,
+    "name": "暮云",
+    "tel": "13584564823",
+    "address": "北京市市辖区朝阳区安贞街道1111",
+    "DetailAddress": "1111",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "北京市",
+    "CityName": "市辖区",
+    "CountyName": "朝阳区",
+    "TownName": "安贞街道",
+    "isLimit": false,
+    "Tag": ""
+  },
+  {
+    "id": 1262268,
+    "name": "测试",
+    "tel": "18368014936",
+    "address": "内蒙古自治区锡林郭勒盟多伦县多伦诺尔镇会盟大街承治花园对面刚刚烧烤城",
+    "DetailAddress": "会盟大街承治花园对面刚刚烧烤城",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "内蒙古自治区",
+    "CityName": "锡林郭勒盟",
+    "CountyName": "多伦县",
+    "TownName": "多伦诺尔镇",
+    "isLimit": true,
+    "Tag": ""
+  },
+  {
+    "id": 1279062,
+    "name": "吧",
+    "tel": "13825254125",
+    "address": "北京市市辖区西城区新街口街道GPS",
+    "DetailAddress": "GPS",
+    "isDefault": false,
+    "isSetDefault": false,
+    "ProvinceName": "北京市",
+    "CityName": "市辖区",
+    "CountyName": "西城区",
+    "TownName": "新街口街道",
+    "isLimit": false,
+    "Tag": ""
+  }
+]

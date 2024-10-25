@@ -1,5 +1,5 @@
 import Taro from '@tarojs/taro'
-import React from 'react'
+import React, { Children } from 'react'
 import { View, Image } from '@tarojs/components'
 import { useNavigationBarInfo, usePageInfo } from '@/utils/hooks'
 import icon_back from '@/assets/icons/back.png'
@@ -8,13 +8,15 @@ import Router from '@/utils/route'
 import './index.scss'
 
 type NavigationHeaderProps = {
-	title?: string
+  title?: string,
+  color?: string,
+  children?: React.ReactNode,
 }
 
 export default function NavigationHeader(
 	props: NavigationHeaderProps
 ): JSX.Element {
-	const { title } = props
+	const { title,color,children } = props
 
 	const {
 		statusBarHeight,
@@ -41,16 +43,15 @@ export default function NavigationHeader(
 			? {
 					width: menuButtonWidth,
 			  }
-			: {
-					width: Taro.pxTransform(200),
-			  }
+			: {}
 
 	return (
 		<View
 			className='nav-header'
 			style={{
 				height: navigationBarHeight,
-				padding: `0 ${navigationPaddding}px`,
+        padding: `0 ${navigationPaddding}px`,
+        backgroundColor: color
 			}}
 		>
 			<View
@@ -94,8 +95,9 @@ export default function NavigationHeader(
 						</>
 					) : null}
 				</View>
-				<View className='nav-header-content-center'>{title || '页面标题'}</View>
-				<View className='nav-header-content-right' style={iconBoxStyle} />
+				{title ? <View className='nav-header-content-center'>{title}</View> : ''}
+        {children}
+        <View className='nav-header-content-right' style={iconBoxStyle} />
 			</View>
 		</View>
 	)

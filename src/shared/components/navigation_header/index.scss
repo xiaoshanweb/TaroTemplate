@@ -6,21 +6,22 @@
 	left: 0;
 	width: 100%;
 	box-sizing: border-box;
-	height: 45px;
-  padding: 0px 10px 20px 10px;
+	height: 50px;
+  padding: 0px 10px 0px 10px;
 	// line-height: 88px;
 
 	&-content {
 		display: flex;
 		align-items: center;
+    height: 100%;
 
 		&-left {
 			&-icon-group {
-				width: 75px;
+				// width: 75px;
 				display: flex;
 				align-items: center;
-				border-radius: 16px;
-				border: 1px solid #fff;
+				// border-radius: 16px;
+				// border: 1px solid #fff;
 				// background-color: rgba($color: #333, $alpha: 0.4);
 			}
 
@@ -48,7 +49,7 @@
 		}
 
 		&-right {
-			width: 20%;
+			// width: 20%;
 			height: 100%;
 		}
 	}
